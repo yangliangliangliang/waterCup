@@ -1,0 +1,104 @@
+{
+	"pages": [
+		{
+			"path": "pages/launch/launch",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					"titleNView":false,
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/launchLang/launchLang",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					"titleNView":false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/device/device",
+			"style": {
+				// "navigationBarTitleText": "shouye",
+				"app-plus":{
+					"titleNView":false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "记录",
+				"navigationBarTextStyle":"black",
+				"app-plus":{"bounce":"none"}
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "教学视频",
+				"navigationBarTextStyle":"black",
+				"app-plus":{"bounce":"none"}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					"titleNView":false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarTextStyle":"black",
+				"app-plus":{"bounce":"none"}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "启动",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	    "color": "#999999",
+	    "selectedColor": "#0088FC",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+		{
+	        "pagePath": "pages/device/device",
+	        "iconPath": "static/tab/undevice.png",
+	        "selectedIconPath": "static/tab/device.png",
+	        "text": "设备"
+	    }, {
+	        "pagePath": "pages/record/record",
+	        "iconPath": "./static/tab/unrecord.png",
+	        "selectedIconPath": "./static/tab/record.png",
+	        "text": "记录"
+	    },{
+	        "pagePath": "pages/video/video",
+	        "iconPath": "static/tab/unvideo.png",
+	        "selectedIconPath": "static/tab/video.png",
+	        "text": "教学视频"
+	    },{
+	        "pagePath": "pages/setting/setting",
+	        "iconPath": "static/tab/unsetting.png",
+	        "selectedIconPath": "static/tab/setting.png",
+	        "text": "设置"
+	    }]
+	}
+}
